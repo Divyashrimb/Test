@@ -1,16 +1,6 @@
 import java.util.Scanner;
 class Management_System {
-    void CreateTicket(){
-        System.out.print("Choose");
-        Scanner sc=new Scanner(System.in);
-        String id= sc.next();
-        System.out.print("Name");
-        String name=sc.next();
-        System.out.print("Issue Description");
-        String issue=sc.next();
-        System.out.println(" Ticket is created by "+ id  +" name "+ name +" having " +  issue +" issues");
-    }
-    void Status(String i){ 
+       void S(String i){ 
         if(i == "IT_Team"){
             System.out.println("This is the It team");
             Scanner sc=new Scanner(System.in);
@@ -60,10 +50,18 @@ class Management_System {
 
 public class Test {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        System.out.print("Choose");
+        Scanner sc=new Scanner(System.in);
+        String id= sc.next();
+        System.out.print("Name");
+        String name=sc.next();
+        System.out.print("Issue Description");
+        String issue=sc.next();
+        System.out.println(" id +" "+name+" "+issue);
+        Scanner sc1 = new Scanner(System.in);
         System.out.println("Hi, Choose  one of the below");
         System.out.println(" 1.IT_Team\n 2.HR_Team\n 3.Finance_Team\n 4.Facility_Team\n");
-        String s = sc.next();
+        String s = sc1.next();
         switch (s){
 
             case "1":
