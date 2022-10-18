@@ -4,8 +4,8 @@ class Management_System {
         if(i == "IT_Team"){
             System.out.println("This is the It team");
             Scanner sc=new Scanner(System.in);
-            String status=sc.nextLine();
-            if(status == "Done"){
+            String s=sc.nextLine();
+            if(s == "Yes"){
                 System.out.println("The issue has been fixed");
             }
             else{
@@ -16,7 +16,7 @@ class Management_System {
             System.out.println("This is HR team");
             Scanner sc = new Scanner(System.in);
             String s = sc.nextLine();
-            if (s == "Done"){
+            if (s == "Yes"){
                 System.out.println("The issue has been fixed");
             }
             else {
@@ -27,7 +27,7 @@ class Management_System {
             System.out.println("This is Finance team");
             Scanner sc = new Scanner(System.in);
             String s = sc.nextLine();
-            if (s == "Done"){
+            if (s == "Yes"){
                 System.out.println("The issue has been fixed");
             }
             else {
@@ -38,7 +38,7 @@ class Management_System {
             System.out.println("This is Facility team");
             Scanner sc = new Scanner(System.in);
             String s = sc.nextLine();
-            if (s == "Done"){
+            if (s == "Yes"){
                 System.out.println("The issue has been fixed");
             }
             else {
